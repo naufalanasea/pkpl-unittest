@@ -18,3 +18,4 @@ if __name__ == "__main__":
         print(f"Berat badan ideal : {berat_badan_ideal:.2f} kg")
     except ValueError as e:
         print(e)
+#uas
