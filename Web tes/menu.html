@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tugas Akhir PWEB</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <section class="header">
+		<nav>
+			<div class="nav">
+				<ul>
+					<li><a href="menu.html">Daftar</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="data.php">Data Member</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="text-awal">
+			<h1>Pendaftaran</h1>
+            <p>Silahkan diisi dengan sesuai!</p>
+                <form name="form1" action="proses.php" method="post">
+                <center><table >
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td><input name="nama" id="nama" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><input name="alamat" id="alamat" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>No Telp</td>
+                        <td><input name="telp" id="telp" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input name="email" id="email" type="text" ></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit" class="button-btn" >
+                <input type="reset" value="Reset" class="button1-btn" >
+            </form>
+            </center>
+        </div>
+	</section>
+</body>
+</html>
