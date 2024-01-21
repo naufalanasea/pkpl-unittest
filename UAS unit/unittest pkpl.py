@@ -43,3 +43,4 @@ else:
     print(f"Hasil Pemeriksaan Salah. Hasil seharusnya: 2025, Hasil pada pengujian: {calculator_result}")
 
 driver.quit()
+#uas
